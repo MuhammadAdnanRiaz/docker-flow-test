@@ -1,0 +1,21 @@
+{
+  "name": "docker-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./**/*.js",
+    "debug": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "ronin-mocks": "^0.1.6",
+    "ronin-server": "^0.1.3"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0"
+  }
+}
